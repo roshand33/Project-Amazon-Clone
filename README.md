@@ -263,12 +263,3 @@ Your Amazon Clone will be running on:
 http://EC2-IP:3000
 ```
 
----
-
-## ⭐ Author
-
-**Roshan D**  (GitHub: `roshand33`)
-
----
-
-Let me know if you want badges, images, or a more advanced README design!
