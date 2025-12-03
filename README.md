@@ -56,7 +56,7 @@ Enter:
 ```bash
 mkdir amazon
 cd amazon
-git clone https://github.com/roshand33/Project-Amazon-Clone.git
+git clone https://github.com/abhipraydhoble/Project-Amazon-Clone.git
 ls
 ```
 
@@ -203,7 +203,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/roshand33/Project-Amazon-Clone.git'
+                git branch: 'main', url: 'https://github.com/abhipraydhoble/Project-Amazon-Clone.git'
             }
         }
         stage("Sonarqube Analysis "){
