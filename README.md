@@ -99,6 +99,19 @@ This creates:
 
 ## 📌 6. Login to Jenkins Server
 
+### Configuring Jenkins server
+````
+sudo apt update
+sudo apt install fontconfig openjdk-21-jre -y
+sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
+  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]" \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+sudo apt-get update
+sudo apt-get install jenkins -y
+````
+
 Get EC2 Public IP → open browser:
 ```
 http://<PUBLIC-IP>:8080
